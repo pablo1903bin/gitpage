@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="icon" type="image/x-icon" href="img/ico2.ico" />
+    <title>Inmobiliaria Calpulli Anuar</title>
+  </head>
+  <body>
+    <!--========================================================== -->
+    <!-- header -->
+    <!--========================================================== -->
+    <header class="container-fluid bg-primary d-flex justify-content-center">
+      <h2>CONTACTOS.</h2>
+      <h2 class="text-dark mb-4" id="typewriter"></h2>
+      <!--<p class="text-light mb-0 p-2 fs-6">Contactanos 1-(305)-725-1000</p>-->
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3" id="menu">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="./img/logo06.ico"
+            alt=""
+            width="40"
+            height="40"
+            class="d-inline-block align-text-top"
+          />
+        </a>
+        <a class="navbar-brand" href="#">
+          <span class="fs-5 text-primary fw-bold">Callpulli</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#equipo">Equipo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#seccion-contacto">Contactos</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <span class="fs-5 fw-bold">Servicios</span>
+              </a>
+              <ul
+                class="dropdown-menu"
+                id="submenuServicios"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li><a class="dropdown-item" href="#">Construccion</a></li>
+                <li><a class="dropdown-item" href="#">Inmobiliarios</a></li>
+                <li><a class="dropdown-item" href="#">Topograficos</a></li>
+                <li><a class="dropdown-item" href="#">Arquitectura</a></li>
+                <li><a class="dropdown-item" href="#">Jardineria</a></li>
+                <li><a class="dropdown-item" href="#">Plomeria</a></li>
+                <li><a class="dropdown-item" href="#">Electricidad</a></li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >Remodelacion De Interiores</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="#">Pozos</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Camaras de Seguridad</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Defensa Legal</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Asesor Corporativo</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Avaluo de Inmuebles</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Notario Publico</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Inversion Inmobiliaria</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Remates Bancarios</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Remates Judiciales</a>
+                </li>
+              </ul>
+            </li>
+            <li
+              class="nav-item dropdown"
+              id="submenuContratos"
+              aria-labelledby="navbarDropdownMenuLink"
+            >
+              <a
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-expanded="false"
+                id="contratos"
+                >CONTRATOS</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    class="nav-link dropdown-toggle dropdown-item"
+                    href="#"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    aria-expanded="false"
+                    >ARRENDAMIENTO</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="contratos/arrendamiento.html"
+                        >OBTENER UNO</a
+                      >
+                    </li>
+                    <li><a class="dropdown-item" href="#">Contrato 2</a></li>
+                    <li><a class="dropdown-item" href="#">Contrato 3</a></li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a
+                    class="nav-link dropdown-toggle dropdown-item"
+                    href="#"
+                    id="navbarDarkDropdownMenuLink"
+                    role="button"
+                    aria-expanded="false"
+                    >OTROS</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" role="button" href="#"
+                        >Contrato 1</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" role="button" href="#"
+                        >Contrato 2</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" role="button" href="#"
+                        >Contrato 3</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--========================================================== -->
+    <!-- SLIDER DE IMAGENES-->
+    <!--========================================================== -->
+
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <img src="img/casa4.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="img/casa3.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="img/casa6.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!--========================================================== -->
+    <!-- INTRODUCCION DE SERVICIOS-->
+    <!--========================================================== -->
+
+    <section
+      class="
+        d-flex
+        flex-column
+        justify-content-center
+        align-items-center
+        pt-5
+        text-center
+        w-50
+        m-auto
+      "
+      id="intro"
+    >
+      <h1 class="p-3 fs-2 border-top border-3">
+        Una agencia única para todas tus necesidades
+        <span class="text-primary">Inmobiliarias</span>
+      </h1>
+      <p class="p-3 fs-4">
+        <span class="text-primary">Calpulli </span>Somos una agencia
+        inmobiliaria y de construccion constituida por jovenes Mexicanos,
+        especializados en derecho y arquitectura, mismos que pretenden
+        solidarizarse con las familias mexicanas, para que puedan alcanzar el
+        objetivo de tener una vivienda, digna y decorosa.
+      </p>
+    </section>
+
+    <!--========================================================== -->
+    <!-- TIPOS DE SERVICIOS-->
+    <!--========================================================== -->
+
+    <section class="w-100">
+      <div class="row w-75 mx-auto" id="servicios-fila-1">
+        <div
+          class="
+            col-lg-6 col-md-12 col-sm-12
+            d-flex
+            justify-content-start
+            my-5
+            icono-wrap
+          "
+        >
+          <img
+            src="./img/defensa1.png"
+            alt="defensa"
+            width="180"
+            height="160"
+            border-radius="50px"
+          />
+
+          <div>
+            <h3 class="fs-5 mt-4 px-4 pb-1">Defensa Legal</h3>
+            <p class="px-4">Defensa legal y mas textos</p>
+            <button class="btn btn-primary">ver</button>
+          </div>
+        </div>
+
+        <div
+          class="
+            col-lg-6 col-md-12 col-sm-12
+            d-flex
+            justify-content-start
+            my-5
+            icono-wrap
+          "
+        >
+          <img
+            src="./img/concepto.png"
+            alt="concepto"
+            width="180"
+            height="160"
+          />
+
+          <div>
+            <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap">Asesor Corporativo</h3>
+            <p class="px-4">texto de asesoria y mas textos</p>
+            <button class="btn btn-primary">ver</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row w-75 mx-auto mb-5" id="servicios-fila-2">
+        <div
+          class="
+            col-lg-6 col-md-12 col-sm-12
+            d-flex
+            justify-content-start
+            my-5
+            icono-wrap
+          "
+        >
+          <img
+            src="./img/arquitectura.png"
+            alt="comunicaciones"
+            width="180"
+            height="160"
+          />
+
+          <div>
+            <h3 class="fs-5 mt-4 px-4 pb-1">Arquitectura</h3>
+            <p class="px-4">
+              Desarrollo del plan de comunicaciones para sus clientes.
+            </p>
+            <button class="btn btn-primary">ver</button>
+          </div>
+        </div>
+
+        <div
+          class="
+            col-lg-6 col-md-12 col-sm-12
+            d-flex
+            justify-content-start
+            my-5
+            icono-wrap
+          "
+        >
+          <img src="./img/notario.png" alt="seo" width="180" height="160" />
+
+          <div>
+            <h3 class="fs-5 mt-4 px-4 pb-1">NOTARIO PUBLICO</h3>
+            <p class="px-4">
+              Analizamos la eficiencia y optimizamos los sitios WEB
+            </p>
+            <button class="btn btn-primary">ver</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--========================================================== -->
+    <!-- SECCION ACERCA DE NOSOTROS-->
+    <!--========================================================== -->
+
+    <section>
+      <div class="container w-50 m-auto text-center" id="equipo">
+        <h1 class="mb-5 fs-2">
+          Equipo pequeño con
+          <span class="text-primary">resultados Grandes</span>.
+        </h1>
+        <p class="fs-4">
+          Siempre buscamos las personas adecuadas para que trabajen con
+          nosotros. Si te sientes listo para este reto, te esperamos para que te
+          unas a nosotros.
+        </p>
+      </div>
+
+      <div class="container mt-5 text-center">
+        <img id="img-equipo" src="./img/equipo.jpg" alt="equipo" />
+      </div>
+
+      <div id="local" class="container border-top border-2">
+        <!--<div class="container" id="mapa1">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d60320.05670606925!2d-98.35314025110354!3d19.10750045199105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smx!4v1636591361052!5m2!1sen!2smx"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>-->
+        <div>
+          <div class="wrapper-local">
+            <h2>Ubicado en Juan C. Bonilla, Puebla, Mexico</h2>
+
+            <p class="fs-5 text-body">
+              Elijimos Juan C. Bonilla para nuestra oficina con el objetivo de
+              estar cerca a nuestros clientes. Estamos ubicados en (Direccion*),
+              el corazon y el centro financiero de Puebla, cerca de los mejores
+              restaurantes, tiendas y tan solo 15 minutos del Aeropuerto
+              Internacional. ¡Visitennos y no se arrepentiran!
+            </p>
+            <section class="d-flex justify-content-start" id="numeros-local">
+              <div>
+                <p class="text-primary fs-5">248</p>
+                <p>Dias de Sol</p>
+              </div>
+              <div>
+                <p class="text-primary fs-5">100%</p>
+                <p>Aprobado</p>
+              </div>
+              <div>
+                <p class="text-primary fs-5">24 °C</p>
+                <p>Temperatura</p>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--========================================================== -->
+    <!-- SECCION CONTACTOS-->
+    <!--========================================================== -->
+
+    <section
+      id="seccion-contacto"
+      class="border-bottom border-secondary border-2"
+    >
+      <div id="bg-contactos">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#1b2a4e"
+            fill-opacity="1"
+            d="M0,32L120,42.7C240,53,480,75,720,74.7C960,75,1200,53,1320,42.7L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+
+      <!--========================================================== -->
+      <!-- CONTENEDOR DEL FORMULARIO -->
+      <!--========================================================== -->
+
+      <div
+        class="container border-top border-primary"
+        style="max-width: 500px"
+        id="contenedor-formulario"
+      >
+        <div class="text-center mb-4" id="titulo-formulario">
+          <div>
+            <img src="./img/support.png" alt="" class="img-fluid ps-5" />
+          </div>
+          <h2>Contactanos</h2>
+          <p class="fs-5">Estamos aqui para hacer realidad de tus proyectos</p>
+        </div>
+
+        <form action="">
+          <div class="mb-3">
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="nombre@ejemplo.com"
+            />
+          </div>
+
+          <div class="mb-3">
+            <input
+              type="input"
+              class="form-control"
+              id="nombre"
+              placeholder="Adrian Sanchez"
+            />
+          </div>
+
+          <div class="mb-3">
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="Teléfono"
+            />
+          </div>
+
+          <div class="mb-3">
+            <textarea class="form-control" id="msj" rows="4"></textarea>
+          </div>
+
+          <div class="mb-3">
+            <button type="button" class="btn btn-primary w-100 fs-5">
+              Enviar Mensaje
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!--========================================================== -->
+    <!--FOOTER-->
+    <!--========================================================== -->
+
+    <footer
+      class="w-100 d-flex align-items-center justify-content-center flex-wrap"
+    >
+      <p class="fs-5 px-3 pt-3">
+        Callpulli &copy; Todos Los Derechos Reservados 2021
+      </p>
+      <div id="iconos">
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-twitter"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+      </div>
+    </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
